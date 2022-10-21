@@ -8,6 +8,8 @@ https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
 - uci set wireless.@wifi-device[0].disabled="0"
 - uci commit wireless
 - wifi
+- uci show wireless
+- uci show network
 - ....
 - iw dev
 - iw dev wlan0 scan
