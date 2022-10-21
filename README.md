@@ -3,7 +3,7 @@
 ## OpenWrt
 ### OpenWrt config/disable wifi
 
-### OpenWrt connect to wifi
+### OpenWrt uci commands
 https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
 - uci set wireless.@wifi-device[0].disabled="0"
 - uci commit wireless
@@ -13,18 +13,15 @@ https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
 - ....
 - iw dev
 - iw dev wlan0 scan
-# Disable WiFi-device
-uci set wireless.radio0.disabled="1"
-
-# Disable WiFi-interface
-uci set wireless.default_radio0.disabled="1"
-
-# Disable network interface
-uci set network.wan6.disabled="1"
-
-# Apply changes
-wifi reload
-service network reload
+- # Disable WiFi-device
+  - uci set wireless.radio0.disabled="1"
+- # Disable WiFi-interface
+  - uci set wireless.default_radio0.disabled="1"
+- # Disable network interface
+  - uci set network.wan6.disabled="1"
+- # Apply changes
+  - wifi reload
+  - service network reload
 
 # Save changes
 uci commit wireless
