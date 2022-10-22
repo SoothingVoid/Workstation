@@ -24,6 +24,7 @@ md5sum openwrt-22.03.2-ramips-rt3883-asus_rt-n56u-squashfs-sysupgrade.bin
 &#35; Initiate sysupgrade with your desired options
 &#35; by default ( no -n ) settings are kept
 &#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;&#35;
+
 sysupgrade -v /tmp/openwrt-22.03.2-ramips-rt3883-asus_rt-n56u-squashfs-sysupgrade.bin
 
 &#35;note! had to use -F
