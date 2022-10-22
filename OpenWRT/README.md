@@ -16,6 +16,9 @@ https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
 ## Configure use of storage device
 https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
 
+https://openwrt.org/docs/guide-user/services/nas/samba_configuration
+
+
 ## OpenWRT upgrade firmware
 
 &#35; example downloading the OpenWrt 22.03 upgrade image for ASUS RT-N56U (plain, not B1 version)
