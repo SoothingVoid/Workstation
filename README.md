@@ -38,3 +38,5 @@ opkg install usbutils
 
 ### OpenWrt security hardening
 https://openwrt.org/docs/guide-user/security/openwrt_security
+- /etc/init.d/uhttpd disable
+- /etc/init.d/uhttpd stop
