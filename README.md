@@ -38,5 +38,10 @@ opkg install usbutils
 
 ### OpenWrt security hardening
 https://openwrt.org/docs/guide-user/security/openwrt_security
-- /etc/init.d/uhttpd disable
-- /etc/init.d/uhttpd stop
+- &#35; Enable password prompt for TTY and serial console.
+  - uci set system.@system[0].ttylogin="1"
+  - uci commit system
+- &#35; For additional security, you may disable the uHTTPd webserver altogether and start it via SSH only when needed.
+  - /etc/init.d/system restart
+  - /etc/init.d/uhttpd disable
+  - /etc/init.d/uhttpd stop
