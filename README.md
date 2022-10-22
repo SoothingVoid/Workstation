@@ -13,13 +13,13 @@ https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
 - ....
 - iw dev
 - iw dev wlan0 scan
-- # Disable WiFi-device
+- &#35; Disable WiFi-device
   - uci set wireless.radio0.disabled="1"
-- # Disable WiFi-interface
+- &#35; Disable WiFi-interface
   - uci set wireless.default_radio0.disabled="1"
-- # Disable network interface
+- &#35; Disable network interface
   - uci set network.wan6.disabled="1"
-- # Apply changes
+- &#35; Apply changes
   - wifi reload
   - service network reload
 
