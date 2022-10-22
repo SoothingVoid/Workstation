@@ -7,6 +7,14 @@
 - Latest OpenWrt Firmware Upgrade
   - https://github.com/SoothingVoid/Workstation/blob/main/OpenWRT/openwrt-22.03.2-ramips-rt3883-asus_rt-n56u-squashfs-sysupgrade.bin
   
+## OpenWRT setup USB drives
+https://openwrt.org/docs/guide-user/storage/usb-drives
+
+## OpenWRT setup USB drives
+https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
+
+## Configure use of storage device
+https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
 
 ## OpenWRT upgrade firmware
 
