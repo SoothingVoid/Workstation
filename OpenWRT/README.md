@@ -17,6 +17,7 @@ https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
 https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
 
 https://openwrt.org/docs/guide-user/services/nas/samba_configuration
+https://openwrt.org/docs/guide-user/services/nas/usb-storage-samba-webinterface
 
 
 ## OpenWRT upgrade firmware
