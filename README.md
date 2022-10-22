@@ -27,6 +27,10 @@ https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
 uci commit wireless
 uci commit network
 
+### OpenWRT commands:
+- opkg list-installed | grep samba
+- opkg update && opkg list | grep samba
+
 
 ### OpenWrt Usb setup
 https://openwrt.org/docs/guide-user/storage/usb-drives
