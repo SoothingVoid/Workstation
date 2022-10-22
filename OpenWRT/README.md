@@ -15,6 +15,7 @@ cd /tmp
 wget https://downloads.openwrt.org/releases/22.03.2/targets/ramips/rt3883/openwrt-22.03.2-ramips-rt3883-asus_rt-n56u-squashfs-sysupgrade.bin
 
 &#35; check the integrity of the image file via md5sums
+
 wget https://downloads.openwrt.org/releases/21.02.0/targets/x86/64/sha256sums
 	
 md5sum openwrt-22.03.2-ramips-rt3883-asus_rt-n56u-squashfs-sysupgrade.bin
