@@ -50,3 +50,5 @@ https://openwrt.org/docs/guide-user/security/openwrt_security
   - /etc/init.d/uhttpd disable
   - /etc/init.d/uhttpd stop
  
+## Linux ssh setup
+https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
