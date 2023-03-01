@@ -52,3 +52,16 @@ https://openwrt.org/docs/guide-user/security/openwrt_security
  
 ## Linux ssh setup
 https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
+
+- **&#35;-- On local machine create rsa key pair.**
+  - ssh-keygen
+- **&#35;-- On local machine transfer pub key.**
+  - ssh-copy-id username@remote_host
+- **&#35;-- On local machine transfer pub key.**
+  - ssh-copy-id username@remote_host
+- **&#35;-- Connect to server using rsa key in default location**
+  - ssh username@remote_host
+- **&#35;-- Disabling Password Authentication on remote Server
+  - sudo nano /etc/ssh/sshd_config
+  - change and uncomment parameter 'PasswordAuthentication' to 'no'
+  - sudo systemctl restart ssh
