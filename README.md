@@ -61,7 +61,7 @@ https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-
   - ssh-copy-id username@remote_host
 - **&#35;-- Connect to server using rsa key in default location**
   - ssh username@remote_host
-- **&#35;-- Disabling Password Authentication on remote Server
+- **&#35;-- Disabling Password Authentication on remote Server**
   - sudo nano /etc/ssh/sshd_config
   - change and uncomment parameter 'PasswordAuthentication' to 'no'
   - sudo systemctl restart ssh
