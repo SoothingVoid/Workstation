@@ -65,3 +65,12 @@ https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-
   - sudo nano /etc/ssh/sshd_config
   - change and uncomment parameter 'PasswordAuthentication' to 'no'
   - sudo systemctl restart ssh
+  
+  
+  ## Wireguard setup
+- **&#35;-- Oneline wireguard setup**
+    - **&#35;-- Fix for tun missing OpenVZ)**
+    - sudo mkdir /dev/net && sudo mknod /dev/net/tun c 10 200
+  - wget https://git.io/wireguard -O wireguard-install.sh && bash wireguard-install.sh
+  
+  
